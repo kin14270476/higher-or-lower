@@ -1,21 +1,22 @@
 ### I. Initiative
-Overview of the project itself
+This project is a game where a user can guess if a number is higher or lower.
 
 ### II. Epics and User Stories
 
 ##### Epics
 * Program will create 2 random number between 1 and 10
 * User is able to see 1 of the random number and will be able to chose if it is higher or lower than the other number
+* Program will be in a command line interface 
 
 ##### Non-Functional Requirements
-* I would want this program in a command line interface
-* 
+* The player will have 3 lives and each time they guess wrong their life will go down by one and once all lives are gone the game will be over and it will display how many guess they got right.
+* The player will be given certain amount currency in which they can wager withand they will get money back if they win and they will lose the money that they wagered if they lose.
+*
 
 ##### User Stories
 Written in the format: 
 
-As a player, I would _____
-
+As a player, I would to be able to continue the game without having to refresh the page.
 
 
 ##### How We Addressed The Requirements
