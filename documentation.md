@@ -63,8 +63,8 @@ Table showing user stories with weighting, due date and completion state
 
 ##### Flowchart
 
-Flowchart showing how the program will work
-
+This flowchart is a  basic layout of how my program will function
+![Flowchart](https://github.com/kin14270476/higher-or-lower/blob/master/flowchart.png)
 ##### Functions
 
 Descriptions of functions given on flowchart
