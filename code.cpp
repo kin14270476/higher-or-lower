@@ -7,13 +7,18 @@ using namespace std;
 
 int main() 
 {
-  cout << "In this game you will roll a dice and you must guess if you rolled higher or lower than the computer dice." << endl;
+  cout << "In this game you will roll a dice and you must guess if you rolled higher or lower than the computer dice. You will wager on these dice throw and will get 50% of your wager back if you win but if you lose you will lose all the money you wagered. When you first start you will chose how much money you start with. When all your money is gone you lose the game. You can also cash out your money to end the game." << endl;
   int PA; //PA means play again?
   PA = 1;
   while(PA==1)
   {
     int lives;
     lives = 3;
+    
+    int money;
+    cout << endl << "How much money would you like to start with?";
+    cin >> money;
+    cout << money;
 
     int wins;
     wins = 0;
