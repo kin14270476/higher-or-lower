@@ -17,8 +17,13 @@ int main()
     
     int money;
     cout << endl << "How much money would you like to start with?";
-    cin >> money;
-    cout << money;
+    while(!(cin >> money)) //This loop force the input to be a integer for money
+    {
+		  cin.clear();
+		  cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		  cout << "You did not enter in a number for the amount of money you want to have. Please enter in a  number: ";
+    }
+    cout << "the money has been set to " << money;
 
     int wins;
     wins = 0;
@@ -38,7 +43,22 @@ int main()
       string HOL; //HOL means Higher Or Lower
       cout << "Do you think you rolled higher or lower:" ; 
       cin >> HOL;
+      while(!((HOL == "higher") || (HOL == "lower")))
+      {
+        cout << "You did not chose if the number was higher or lower. Please enter in if the number was higher or lower:";
+        cin >> HOL;
+      }
       cout << "User guessed " << HOL << " only for debugging." << endl;
+
+      int Bet;
+      cout << "How much do you want to bet that your answer is correct?";
+      while(!(cin >> Bet)) //This loop force the input to be a integer for money
+      {
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cout << "You did not enter in a number for the amount of money you want to bet. Please enter in a  number: ";
+      }
+      cout << "The user bet " << Bet;
 
       if (UserDice < ComputerDice) //This figures out if the dice is lower and if it is then it will use the users input to decide if they won or not.
       {
@@ -74,6 +94,11 @@ int main()
     cout << endl << "Game Over." << endl << "you won " << wins << " times" << endl << "play again?(Yes/No):";
     string YON; // YON means Yes or No
     cin >> YON;
+    while(!((YON == "Yes") || (YON == "No")))
+      {
+        cout << "You did not chose if the number was higher or lower. Please enter in if the number was higher or lower:";
+        cin >> YON;
+      }
     if (YON == "No")
     {
       PA = 0;
