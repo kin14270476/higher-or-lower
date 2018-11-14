@@ -14,17 +14,7 @@ int main()
   {
     int lives;
     lives = 3;
-    
-    int money;
-    cout << endl << "How much money would you like to start with?";
-    while(!(cin >> money)) //This loop force the input to be a integer for money
-    {
-		  cin.clear();
-		  cin.ignore(numeric_limits<streamsize>::max(), '\n');
-		  cout << "You did not enter in a number for the amount of money you want to have. Please enter in a  number: ";
-    }
-    cout << "the money has been set to " << money;
-
+	  
     int wins;
     wins = 0;
     while(lives>0)
