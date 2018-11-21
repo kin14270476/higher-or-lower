@@ -30,7 +30,6 @@ int main()
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			cout << "You did not enter in a number for the amount of money you want to have. Please enter in a  number: ";
 		}
-		cout << "the money has been set to " << money;
 
 		wins = 0;
 		while (lives>0)
@@ -42,7 +41,6 @@ int main()
 			cout << "You rolled a " << UserDice << "." << endl;
 
 			ComputerDice = rand() % 10 + 1;
-			cout << "The computer rolled a " << ComputerDice << " only for debugging." << endl;
 
 			cout << "Do you think you rolled higher or lower:";
 			cin >> HOL;
@@ -51,7 +49,6 @@ int main()
 				cout << "You did not chose if the number was higher or lower. Please enter in if the number was higher or lower:";
 				cin >> HOL;
 			}
-			cout << "User guessed " << HOL << " only for debugging." << endl;
 
 			cout << "How much do you want to bet that your answer is correct?";
 			while (!(cin >> Bet)) //This loop force the input to be a integer for money
@@ -70,7 +67,7 @@ int main()
           cout << "You did not enter in a number for the amount of money you want to bet. Please enter in a  number: ";
         }
       }
-			cout << "The user bet " << Bet << endl;
+
 
 			if (UserDice < ComputerDice) //This figures out if the dice is lower and if it is then it will use the users input to decide if they won or not.
 			{
