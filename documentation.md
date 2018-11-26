@@ -31,7 +31,7 @@ How will your planned product meet the user requirements
 Windows/Linix/Mac depending on where it compiled
 
 ##### Programming Language/Enviroment
-C++ was used to make this program with the programming enviroment of Repl.it. 
+C++ was used to make this program with the programming enviroment of Repl.it 
 
 ##### Programming Challenges
 State the programing challenges you are trying to overcome
@@ -45,8 +45,7 @@ Think of this as the method. How will you go about building your program?
 Explanation of the algorithms behind your program
  
 ##### Coding Standards 
-Standard for the code you will be writting 
-All vaibles must have appropriate names with capital letter for the first letter. After each if statement or loop has been initiated there will be an indetation to make the code easier to read and to work out if a section of code is in a loop. Each comment has been writen at the end of the line so that reader will know what the comment is in refernce.
+All vaibles must have appropriate names with capital letter for the first letter. Each varible must be initiated at the top of document along with importing a modula. After each if statement or loop has been initiated there will be an indetation to make the code easier to read and to work out if a section of code is in a loop. Each comment has been writen at the end of the line so that reader will know what the comment is in refernce.
 ### V. Research
 
 ### VI. Project Management
