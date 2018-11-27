@@ -45,7 +45,7 @@ Think of this as the method. How will you go about building your program?
 Explanation of the algorithms behind your program
  
 ##### Coding Standards 
-All vaibles must have appropriate names with capital letter for the first letter. Each varible must be initiated at the top of document along with importing a modula. After each if statement or loop has been initiated there will be an indetation to make the code easier to read and to work out if a section of code is in a loop. Each comment has been writen at the end of the line so that reader will know what the comment is in refernce.
+All vaibles must have appropriate names with capital letter for the first letter. Each varible must be initiated at the top of document along with importing a modula. After each if statement or loop has been initiated there will be an indetation to make the code easier to read and to work out if a section of code is in a loop. Each comment has been writen at the end of the line so that reader will know what the comment is in refernce. Comments will be writen for each IF stament, loop and vaible.
 ### V. Research
 
 ### VI. Project Management
