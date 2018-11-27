@@ -17,9 +17,9 @@ int main()
   PA = 1;
   while(PA==1)
   {
-    lives = 3;
-    wins = 0;
-    while(lives>0)
+    Lives = 3;
+    Wins = 0;
+    while(Lives>0)
     {
       cout << endl;
       srand(time(NULL));
@@ -37,26 +37,26 @@ int main()
       {
         if (HOL == "higher")
         {
-          wins = wins + 1;
-          cout << "You guessed right." << endl << "You have won " << wins << " times and you have " << lives << " lives left." << endl;
+          Wins = Wins + 1;
+          cout << "You guessed right." << endl << "You have won " << Wins << " times and you have " << Lives << " lives left." << endl;
         }
         else 
         {
-          lives = lives - 1 ;
-          cout << "You guessed wrong." << endl << "You have " << lives << " lives left." << endl;
+          Lives = Lives - 1 ;
+          cout << "You guessed wrong." << endl << "You have " << Lives << " lives left." << endl;
         }
       }
       else if (UserDice > ComputerDice) //This figures out if the dice is higher and if it is then it will use the users input to decide if they won or not.
       {
         if (HOL == "lower")
         {
-          wins = wins + 1;
-          cout << "You guess right." << endl << "You have won " << wins << " times and you have " << lives << " lives left." << endl;
+          Wins = Wins + 1;
+          cout << "You guess right." << endl << "You have won " << Wins << " times and you have " << Lives << " lives left." << endl;
         }
         else 
         {
-          lives = lives - 1 ;
-          cout << "You guessed wrong." << endl << "you have " << lives << " lives left." << endl;
+          Lives = Lives - 1 ;
+          cout << "You guessed wrong." << endl << "you have " << Lives << " lives left." << endl;
         }
       }
       else //If the dice is not higher or lower it must be equal so the player draws
@@ -64,7 +64,7 @@ int main()
         cout << "Your dice and the computer dice was the same so it is a draw." << endl;
       }
     }
-    cout << endl << "Game Over." << endl << "you won " << wins << " times" << endl << "play again?(Yes/No):";
+    cout << endl << "Game Over." << endl << "you won " << Wins << " times" << endl << "play again?(Yes/No):";
     cin >> YON;
     while(!((YON == "Yes") || (YON == "No")))
       {
