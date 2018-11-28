@@ -62,7 +62,6 @@ Table showing user stories with weighting, due date and completion state
 
 ##### Flowchart
 
-This flowchart is a  basic layout of how my program will function for the first iteration.
 [Click her for version 1 of the flow chart](https://github.com/kin14270476/higher-or-lower/blob/master/flowchart2.pdf)
 
 [Click here for version 2 of the flow chart](https://github.com/kin14270476/higher-or-lower/blob/master/flowchart2.pdf)
