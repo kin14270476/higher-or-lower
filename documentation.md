@@ -62,7 +62,7 @@ Table showing user stories with weighting, due date and completion state
 
 ##### Flowchart
 
-[Click her for version 1 of the flow chart](https://github.com/kin14270476/higher-or-lower/blob/master/flowchart2.pdf)
+[Click her for version 1 of the flow chart](https://github.com/kin14270476/higher-or-lower/blob/master/flowchart1.pdf)
 
 [Click here for version 2 of the flow chart](https://github.com/kin14270476/higher-or-lower/blob/master/flowchart2.pdf)
 ##### Functions
