@@ -48,12 +48,21 @@ Explanation of the algorithms behind your program
 ###### Variable Naming and Location
 * All variables must have appropriate names with capital letter for the first letter.
 * Variable must be correctly spelt.
-* Each variable must be initiated at the top of document along with importing a module.
+* Each variable must be initiated at the top of document underneath modules.
+* Variable should be ordered by type of variable with int going at the top and then by when they occur in the code.
+###### Modules
+* Modules should be imported at the top of code above the variables
+* The module iostream should always be at the top of list of module.
+* If string is needed to be imported it should go underneath iostream.
+* All other modules should be order in alphabetical.
 ###### Brackets
 * Curly brackets should appear in the line below if statement or the while loop.  
 ###### Commenting
 * Each comment has been written at the end of the line so that reader will know what the comment is in reference.
 * Comments will be written for each IF stament, loop and variable to explain what they do.
+###### Blank spaces
+* There should be no blank spaces at any point the code.
+
 ### V. Research
 
 ### VI. Project Management
