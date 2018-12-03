@@ -32,7 +32,7 @@ Windows/Linix/Mac depending on where it compiled
 
 ##### Programming Language/Enviroment
 C++ was used to make this program with the programming enviroment of Repl.it 
-
+![screenshot of IDE](https://github.com/kin14270476/higher-or-lower/blob/master/IDE.png)
 ##### Programming Challenges
 State the programing challenges you are trying to overcome
  
