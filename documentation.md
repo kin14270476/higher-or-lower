@@ -45,16 +45,15 @@ Think of this as the method. How will you go about building your program?
 Explanation of the algorithms behind your program
  
 ##### Coding Standards
-###### Varible naming and location
-* All vaibles must have appropriate names with capital letter for the first letter.
-* Each varible must be initiated at the top of document along with importing a modula.
-###### Curly brackets
-* Curly brackets should appear the line below the if statment or the while loop.  
-###### Indentation
-* After each if statement or loop has been initiated there will be an indetation to make the code easier to read and to work out if a section of code is in a loop.
+###### Variable Naming and Location
+* All variables must have appropriate names with capital letter for the first letter.
+* Variable must be correctly spelt.
+* Each variable must be initiated at the top of document along with importing a module.
+###### Brackets
+* Curly brackets should appear in the line below if statement or the while loop.  
 ###### Commenting
-* Each comment has been writen at the end of the line so that reader will know what the comment is in refernce.
-* Comments will be writen for each IF stament, loop and vaible.
+* Each comment has been written at the end of the line so that reader will know what the comment is in reference.
+* Comments will be written for each IF stament, loop and variable to explain what they do.
 ### V. Research
 
 ### VI. Project Management
