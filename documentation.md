@@ -47,6 +47,7 @@ Explanation of the algorithms behind your program
 ##### Coding Standards
 ###### Variable Naming and Location
 * All variables must have appropriate names with capital letter for the first letter.
+* Variable with mulitple words must have a capital letter for the first letter of each word.
 * Variable must be correctly spelt.
 * Each variable must be initiated at the top of document underneath modules.
 * Variable should be ordered by type of variable with int going at the top and then by when they occur in the code.
