@@ -46,18 +46,44 @@ Explanation of the algorithms behind your program
  
 ##### Coding Standards
 ###### Variable Naming and Location
-* All variables must have appropriate names with capital letter for the first letter.
+* All variables must have capital letter for the first letter.
 * Variable with mulitple words must have a capital letter for the first letter of each word.
 * Variable must be correctly spelt.
 * Each variable must be initiated at the top of document underneath modules.
 * Variable should be ordered by type of variable with int going at the top and then by when they occur in the code.
+``` c++
+int PA; //PA means play again?
+int Lives;
+int Money;
+int Wins;
+int UserDice;
+int ComputerDice;
+int Bet;
+string HOL; //HOL means Higher Or Lower
+string YON; //YON means Yes or No
+```
+
 ###### Modules
 * Modules should be imported at the top of code above the variables
 * The module iostream should always be at the top of list of module.
 * If string is needed to be imported it should go underneath iostream.
 * All other modules should be order in alphabetical.
+``` C++ 
+#include <iostream>
+#include <string>
+#include <random>
+#include <stdlib.h>
+#include <time.h>
+```
 ###### Brackets
-* Curly brackets should appear in the line below if statement or the while loop.  
+* Curly brackets should appear in the line below if statement or the while loop.
+``` c++
+while (!((HOL == "higher") || (HOL == "lower"))) //This loop forces HOL to be higher or lower and if not will ask the user to reinput the variable.
+{
+ cout << "You did not chose if the number was higher or lower. Please enter in if the number was higher or lower:";
+ cin >> HOL;
+}
+```
 ###### Commenting
 * Each comment has been written at the end of the line so that reader will know what the comment is in reference.
 * Comments will be written for each IF stament, loop and variable to explain what they do.
