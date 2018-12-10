@@ -48,9 +48,8 @@ Explanation of the algorithms behind your program
 ###### Variable Naming and Location
 * All variables must have capital letter for the first letter.
 * Variable with mulitple words must have a capital letter for the first letter of each word.
-* Variable must be correctly spelt.
 * Each variable must be initiated at the top of document underneath modules.
-* Variable should be ordered by type of variable with int going at the top and then by when they occur in the code.
+* Variable should be ordered by type of variable alphabeticaly and then by when they occur in the code.
 ``` c++
 int PA; //PA means play again?
 int Lives;
@@ -76,7 +75,8 @@ string YON; //YON means Yes or No
 #include <time.h>
 ```
 ###### Brackets
-* Curly brackets should appear in the line below if statement or the while loop.
+* Curly brackets should be inline with each other
+* Curly Brackets should appear below the if or while statements and it must have the same indentation as the statement. 
 ``` c++
 while (!((HOL == "higher") || (HOL == "lower"))) //This loop forces HOL to be higher or lower and if not will ask the user to reinput the variable.
 {
@@ -94,7 +94,16 @@ if (YON == "No")//If No terrminate the program
 }
 ```
 ###### Blank spaces
-* There should be no blank spaces in between section at any point the code.
+* There should be a blank spaces after an end curly bracket or function.
+``` c++
+while (!((YON == "Yes") || (YON == "No"))) // this forces the user to enter in Yes or No
+{
+ cout << "You did not answer with a Yes or No for the question. Please enter answer with a Yes or No:";
+ cin >> YON;
+}
+
+if (YON == "No")//If No terrminate the program
+```
 
 ### V. Research
 
