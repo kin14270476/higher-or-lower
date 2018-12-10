@@ -87,8 +87,14 @@ while (!((HOL == "higher") || (HOL == "lower"))) //This loop forces HOL to be hi
 ###### Commenting
 * Each comment has been written at the end of the line so that reader will know what the comment is in reference.
 * Comments will be written for each IF stament, loop and variable to explain what they do.
+``` C++
+if (YON == "No")//If No terrminate the program
+{
+ PA = 0;
+}
+```
 ###### Blank spaces
-* There should be no blank spaces at any point the code.
+* There should be no blank spaces in between section at any point the code.
 
 ### V. Research
 
